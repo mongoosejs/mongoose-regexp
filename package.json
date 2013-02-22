@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-regexp",
+  "version": "0.0.1",
+  "description": "Adds RegExp storage support to Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aheckmann/mongoose-regexp.git"
+  },
+  "keywords": [
+    "mongoose",
+    "type",
+    "schema",
+    "schematype"
+  ],
+  "author": "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "mongoose": ">=3.5.7"
+  },
+  "peerDependencies": { "mongoose": ">=3.5.7" }
+}
