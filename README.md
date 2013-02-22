@@ -3,7 +3,7 @@
 
 Provides [Mongoose](http://mongoosejs.com) support for storing `RegExp`.
 
-[![Build Status](https://secure.travis-ci.org/aheckmann/mongoose-regexp.png?branch=master)](http://travis-ci.org/aheckmann/mongoose-regexp)
+[![Build Status](https://travis-ci.org/aheckmann/mongoose-regexp.png?branch=master)](http://travis-ci.org/aheckmann/mongoose-regexp)
 
 Example:
 
