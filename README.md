@@ -30,4 +30,10 @@ m.save(function (err) {
 npm install mongoose-regexp
 ```
 
+### compatibility with other languages
+
+There are no guarantees that `RegExp`s created and stored using another driver and retreived using this
+module will compile or behave the same as originally intended. This module works best when it is known
+that `RegExp`s stored and retrevied were generated in Node.js.
+
 [LICENSE](https://github.com/aheckmann/mongoose-regexp/blob/master/LICENSE)
