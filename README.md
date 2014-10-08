@@ -18,7 +18,7 @@ var m = new M;
 m.reg = /^mongodb/i;
 m.save(function (err) {
   M.findById(m._id, function (err, doc) {
-    var ok = m.reg.test("MongoDB allows storing RegExps!");
+    var ok = doc.reg.test("MongoDB allows storing RegExps!");
     console.log(ok); // true
   });
 });
